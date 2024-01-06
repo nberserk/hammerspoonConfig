@@ -39,7 +39,7 @@ hs.loadSpoon("SpoonInstall")
 spoon.SpoonInstall:andUse("Caffeine", { start=true})
 
 -- from https://github.com/johngrib/hammerspoon-config/blob/master/modules/inputsource_aurora.lua
-require('modules.inputsource_aurora')
+-- require('modules.inputsource_aurora')
 
 function dump(o)
     if type(o) == 'table' then
